@@ -105,6 +105,7 @@
     .dl-content p {
         color: #fff;
         text-shadow: 1px 1px 3px #666;
+        line-height: 1.2em;
     }
     .dl-header {
         background: linear-gradient(60deg, #8d00a7,#7b077ba8, #881bb5);
@@ -124,11 +125,12 @@
         border-bottom: 5px solid gold;
     }
     .dl-header h1 {
-        font-size: 1.2em;
-        line-height: 1em;
+        font-size: 1em;
+        line-height: 0.5em;
     }
     .dl-header h3 {
         font-size: 1em;
+        line-height: 0.5em;
     }
     .dl-sub-header {
         width: 100%;
@@ -167,21 +169,65 @@
         clear: right;
     }
     .dl-col:nth-child(3) {
-        background: #800080c4;    
+        background: #800080c4;
     }
     .dl-col:nth-child(4) {
-        background: #10b94fcf;    
+        background: #10b94fcf;
     }
     .dl-col:nth-child(5) {
-        background: #c3c31ccf;    
+        background: #c3c31ccf;
     }
     .dl-col:nth-child(6) {
-        background: #9e2972d9;    
+        background: #9e2972d9;
     }
     .dl-col:nth-child(7) {
-        background: #1881a5d4;    
+        background: #1881a5d4;
     }
-    .dl-col p {
+    .dl-col:nth-child(8) {
+        background: #800047c4;
+    }
+    .dl-col:nth-child(9) {
+        background: #000480c4;
+    }
+    .tsol1 .dl-col-half:nth-child(1) {
+      background: #80008096;
+    }
+    .tsol1 .dl-col-half:nth-child(2) {
+      background: #10b94fa1;
+    }
+    .tsol2 .dl-col:nth-child(1) {
+      background: #c3c31ccf;
+    }
+    .tsol2 .dl-col:nth-child(2) {
+      background: #9e2972d9;
+    }
+    .tsol2 .dl-col:nth-child(3) {
+      background: #1881a5d4;
+    }
+    .tsol2 .dl-col {
+      height: auto;
+    }
+    .eote .dl-col {
+      height: 400px;
+    }
+    .dl-row {
+      width: 100%;
+      background: #000000cf;
+      height: 100%;
+      overflow: auto;
+    }
+    .dl-col-half {
+      width: 45%;
+      padding: 2.5%;
+      color: #fff;
+      display: inline-block;
+      margin: 0 auto;
+      position: relative;
+      z-index: 0;
+      float: left;
+      clear: right;
+    }
+    #dl-wrapper p {
         color: #fff;
         text-align: center;
         text-shadow: 1px 1px 3px #000;
@@ -195,6 +241,7 @@
     }
     .dl-button {
         padding: 20px;
+        width: 50%;
         font-size: 1.2em;
         text-transform: uppercase;
         cursor: pointer;
@@ -203,7 +250,7 @@
         background: linear-gradient(purple,mediumpurple);
         box-shadow: 0 0 10px #000;
         position: relative;
-        margin: 0 auto;
+        margin: 1em auto;
         border: none;
         border-radius: 5px;
         text-align: center;
@@ -211,8 +258,8 @@
         text-decoration: none;
     }
     .dl-button:hover {
+        transition: 0.5s;
         background: linear-gradient(purple,violet);
-        transition: 0.8s;
     }
     .bullet-purple {
         background: linear-gradient(60deg,purple,violet,purple);
@@ -435,6 +482,12 @@
             height: auto;
             padding: 20px;
             margin: 0 auto;
+        }
+        .dl-col-half {
+          width: 90%;
+          height: auto;
+          padding: 20px;
+          margin: 0 auto;
         }
     }
 /*---- Responsive End -----*/
