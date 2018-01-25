@@ -1,0 +1,15 @@
+// Only 1 file requires dynamic download link//
+
+Link Format:
+
+https://s3.us-east-2.amazonaws.com/individua1/elemental-paradigm/Elemental+Paradigm+-+{Element}.pdf
+
+Spaces are denoted by +
+
+EP Links {
+	Air: https://s3.us-east-2.amazonaws.com/individua1/elemental-paradigm/Elemental+Paradigm+-+Air.pdf
+	Water: https://s3.us-east-2.amazonaws.com/individua1/elemental-paradigm/Elemental+Paradigm+-+Water.pdf
+	Fire: https://s3.us-east-2.amazonaws.com/individua1/elemental-paradigm/Elemental+Paradigm+-+Fire.pdf
+	Earth: https://s3.us-east-2.amazonaws.com/individua1/elemental-paradigm/Elemental+Paradigm+-+Earth.pdf
+
+}

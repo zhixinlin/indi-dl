@@ -1,0 +1,40 @@
+// 2 files require dynamic download link//
+
+Link Format (Archetypal Affirmations - AA):
+http://individualogist.com/downloads/sacred-archetypal-collection/Archetypal%20Affirmations%20{Archetype}.pdf
+
+Link Format (Love Compatibility Guide - LCG):
+http://individualogist.com/downloads/sacred-archetypal-collection/Archetypal%20Love%20Compatibility%20Guide%20{Archetype}.pdf
+
+Spaces are denoted by %20
+
+SAC Links {
+	AA {
+		Caregiver: http://individualogist.com/downloads/sacred-archetypal-collection/Archetypal%20Affirmations%20Caregiver.pdf
+		Creator: http://individualogist.com/downloads/sacred-archetypal-collection/Archetypal%20Affirmations%20Creator.pdf
+		Explorer: http://individualogist.com/downloads/sacred-archetypal-collection/Archetypal%20Affirmations%20Explorer.pdf
+		Hero: http://individualogist.com/downloads/sacred-archetypal-collection/Archetypal%20Affirmations%20Hero.pdf
+		Innocent: http://individualogist.com/downloads/sacred-archetypal-collection/Archetypal%20Affirmations%20Innocent.pdf
+		Jester: http://individualogist.com/downloads/sacred-archetypal-collection/Archetypal%20Affirmations%20Jester.pdf
+		Lover: http://individualogist.com/downloads/sacred-archetypal-collection/Archetypal%20Affirmations%20Lover.pdf
+		Magician: http://individualogist.com/downloads/sacred-archetypal-collection/Archetypal%20Affirmations%20Magician.pdf
+		Member: http://individualogist.com/downloads/sacred-archetypal-collection/Archetypal%20Affirmations%20Member.pdf
+		Outlaw: http://individualogist.com/downloads/sacred-archetypal-collection/Archetypal%20Affirmations%20Outlaw.pdf
+		Ruler: http://individualogist.com/downloads/sacred-archetypal-collection/Archetypal%20Affirmations%20Ruler.pdf
+		Sage: http://individualogist.com/downloads/sacred-archetypal-collection/Archetypal%20Affirmations%20Sage.pdf
+	}
+	LCG {
+		Caregiver: http://individualogist.com/downloads/sacred-archetypal-collection/Archetypal%20Love%20Compatibility%20Guide%20Caregiver.pdf
+		Creator: http://individualogist.com/downloads/sacred-archetypal-collection/Archetypal%20Love%20Compatibility%20Guide%20Creator.pdf
+		Explorer: http://individualogist.com/downloads/sacred-archetypal-collection/Archetypal%20Love%20Compatibility%20Guide%20Explorer.pdf
+		Hero: http://individualogist.com/downloads/sacred-archetypal-collection/Archetypal%20Love%20Compatibility%20Guide%20Hero.pdf
+		Innocent: http://individualogist.com/downloads/sacred-archetypal-collection/Archetypal%20Love%20Compatibility%20Guide%20Innocent.pdf
+		Jester: http://individualogist.com/downloads/sacred-archetypal-collection/Archetypal%20Love%20Compatibility%20Guide%20Jester.pdf
+		Lover: http://individualogist.com/downloads/sacred-archetypal-collection/Archetypal%20Love%20Compatibility%20Guide%20Lover.pdf
+		Magician: http://individualogist.com/downloads/sacred-archetypal-collection/Archetypal%20Love%20Compatibility%20Guide%20Magician.pdf
+		Member: http://individualogist.com/downloads/sacred-archetypal-collection/Archetypal%20Love%20Compatibility%20Guide%20Member.pdf
+		Outlaw: http://individualogist.com/downloads/sacred-archetypal-collection/Archetypal%20Love%20Compatibility%20Guide%20Outlaw.pdf
+		Ruler: http://individualogist.com/downloads/sacred-archetypal-collection/Archetypal%20Love%20Compatibility%20Guide%20Ruler.pdf
+		Sage: http://individualogist.com/downloads/sacred-archetypal-collection/Archetypal%20Love%20Compatibility%20Guide%20Sage.pdf
+	}
+}

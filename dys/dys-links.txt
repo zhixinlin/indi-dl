@@ -1,0 +1,23 @@
+// Only 1 file requires dynamic download link//
+
+Link Format:
+
+http://individualogist.com/downloads/diminishing-your-shadow/Diminishing Your Shadow ({Archetype}).pdf
+
+Spaces are denoted by %20
+
+DYS Links {
+	Caregiver: http://individualogist.com/downloads/diminishing-your-shadow/Diminishing%20Your%20Shadow%20%28Caregiver%29.pdf
+	Creator:http://individualogist.com/downloads/diminishing-your-shadow/Diminishing%20Your%20Shadow%20%28Creator%29.pdf
+	Explorer: http://individualogist.com/downloads/diminishing-your-shadow/Diminishing%20Your%20Shadow%20%28Explorer%29.pdf
+	Hero: http://individualogist.com/downloads/diminishing-your-shadow/Diminishing%20Your%20Shadow%20%28Hero%29.pdf
+	Innocent: http://individualogist.com/downloads/diminishing-your-shadow/Diminishing%20Your%20Shadow%20%28Innocent%29.pdf
+	Jester: http://individualogist.com/downloads/diminishing-your-shadow/Diminishing%20Your%20Shadow%20%28Jester%29.pdf
+	Lover: http://individualogist.com/downloads/diminishing-your-shadow/Diminishing%20Your%20Shadow%20%28Lover%29.pdf
+	Magician: http://individualogist.com/downloads/diminishing-your-shadow/Diminishing%20Your%20Shadow%20%28Magician%29.pdf
+	Member: http://individualogist.com/downloads/diminishing-your-shadow/Diminishing%20Your%20Shadow%20%28Member%29.pdf
+	Outlaw: http://individualogist.com/downloads/diminishing-your-shadow/
+Diminishing%20Your%20Shadow%20%28Outlaw%29.pdf
+	Ruler: http://individualogist.com/downloads/diminishing-your-shadow/Diminishing%20Your%20Shadow%20%28Ruler%29.pdf
+	Sage: http://individualogist.com/downloads/diminishing-your-shadow/Diminishing%20Your%20Shadow%20%28Sage%29.pdf
+}

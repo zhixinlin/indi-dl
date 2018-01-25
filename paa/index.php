@@ -39,7 +39,7 @@ include_once($path);
 
         <p><span class="purple">Step 2:</span> Scroll down and right click on the “Download Now” button for all 5 segments of the Premium Archetypal Analysis, and select “Save Link As”. This will store the entire series into your computer (if you’re accessing this from a mobile device, you can simply tap on the “Download Now” button instead).</p>
 
-        <p><span class="purple">Step 3:</span>: Now, please go through the various portions of the Premium Archetypal Analysis in the following order: Individuation Fundamentals, Archetypal Profile, Archetypal Incarnations, Archetypal Odyssey, and finally, the Archetypal Exercise Guide. Below are the descriptions of each portion of the Premium Archetypal Analysis. And if you scroll down even further, you will find the additional 3 bonus eBooks.</p>
+        <p><span class="purple">Step 3:</span> Now, please go through the various portions of the Premium Archetypal Analysis in the following order: Individuation Fundamentals, Archetypal Profile, Archetypal Incarnations, Archetypal Odyssey, and finally, the Archetypal Exercise Guide. Below are the descriptions of each portion of the Premium Archetypal Analysis. And if you scroll down even further, you will find the additional 3 bonus eBooks.</p>
 
         <p>Now, without any further delay, let’s get started! <span aweber-field="name">Friend</span>, are you ready?</p>
     </div>

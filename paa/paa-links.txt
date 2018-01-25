@@ -1,0 +1,75 @@
+// Links for dynamic display of button based on user variables which are controlled via query string. E.g. indi.com/dl/paa/?archetype=caregiver replaces download button with download access link for caregiver file//
+
+// All files are hosted on AWS, but access links are a mixture of self-hosted URLs with htaccess redirect to correct AWS link, and the actual AWS link//
+
+// Premium Archetypal Analysis (PAA) is a carbon copy replacement for DAR. Just a simple name change. The Downloads consist of 4 different files per archetype. The other files not mentioned here are static and remain the same throughout all archetypes. The download link format is this:
+
+https://s3.us-east-2.amazonaws.com/individua1/premium-archetypal-analysis/{3-letter-archetype}/{document-name+archetype}
+
+*Document names are named with spaces. The full file of Individuation Fundamentals for Caregiver is Individuation Fundamentals - Caregiver. Therefore a +-+ after 'Fundamentals' is required.
+
+EXAMPLES:
+3-letter-archetype - car, cre, exp, her, inn
+document-name - Individuation+Fundamentals+-+, Archetypal+Profile+-+, Archetypal+Incarnations+-+, Archetypal+Odyssey+-+
+archetype - Caregiver, Creator, Explorer, Hero, Innocent
+
+Spaces are denoted by +
+
+PAA Links {
+    individuation-fundamentals {
+        Caregiver: https://s3.us-east-2.amazonaws.com/individua1/premium-archetypal-analysis/car/Individuation+Fundamentals+-+Caregiver.pdf
+        Creator: https://s3.us-east-2.amazonaws.com/individua1/premium-archetypal-analysis/cre/Individuation+Fundamentals+-+Creator.pdf
+        Explorer: https://s3.us-east-2.amazonaws.com/individua1/premium-archetypal-analysis/exp/Individuation+Fundamentals+-+Explorer.pdf
+        Hero: https://s3.us-east-2.amazonaws.com/individua1/premium-archetypal-analysis/her/Individuation+Fundamentals+-+Hero.pdf
+        Innocent: https://s3.us-east-2.amazonaws.com/individua1/premium-archetypal-analysis/inn/Individuation+Fundamentals+-+Innocent.pdf
+        Jester: https://s3.us-east-2.amazonaws.com/individua1/premium-archetypal-analysis/jes/Individuation+Fundamentals+-+Jester.pdf
+        Lover: https://s3.us-east-2.amazonaws.com/individua1/premium-archetypal-analysis/lov/Individuation+Fundamentals+-+Lover.pdf
+        Magician: https://s3.us-east-2.amazonaws.com/individua1/premium-archetypal-analysis/mag/Individuation+Fundamentals+-+Magician.pdf
+	Member: https://s3.us-east-2.amazonaws.com/individua1/premium-archetypal-analysis/mem/Individuation+Fundamentals+-+Member.pdf
+        Outlaw: https://s3.us-east-2.amazonaws.com/individua1/premium-archetypal-analysis/out/Individuation+Fundamentals+-+Outlaw.pdf
+        Ruler: https://s3.us-east-2.amazonaws.com/individua1/premium-archetypal-analysis/rul/Individuation+Fundamentals+-+Ruler.pdf
+        Sage: https://s3.us-east-2.amazonaws.com/individua1/premium-archetypal-analysis/sag/Individuation+Fundamentals+-+Sage.pdf
+    }
+    archetypal-profile {
+        Caregiver: https://s3.us-east-2.amazonaws.com/individua1/premium-archetypal-analysis/car/Archetypal+Profile+-+Caregiver.pdf
+        Creator: https://s3.us-east-2.amazonaws.com/individua1/premium-archetypal-analysis/cre/Archetypal+Profile+-+Creator.pdf
+        Explorer: https://s3.us-east-2.amazonaws.com/individua1/premium-archetypal-analysis/exp/Archetypal+Profile+-+Explorer.pdf
+        Hero: https://s3.us-east-2.amazonaws.com/individua1/premium-archetypal-analysis/her/Archetypal+Profile+-+Hero.pdf
+        Innocent: https://s3.us-east-2.amazonaws.com/individua1/premium-archetypal-analysis/inn/Archetypal+Profile+-+Innocent.pdf
+        Jester: https://s3.us-east-2.amazonaws.com/individua1/premium-archetypal-analysis/jes/Archetypal+Profile+-+Jester.pdf
+        Lover: https://s3.us-east-2.amazonaws.com/individua1/premium-archetypal-analysis/lov/Archetypal+Profile+-+Lover.pdf
+        Magician: https://s3.us-east-2.amazonaws.com/individua1/premium-archetypal-analysis/mag/Archetypal+Profile+-+Magician.pdf
+	Member: https://s3.us-east-2.amazonaws.com/individua1/premium-archetypal-analysis/mem/Archetypal+Profile+-+Member.pdf
+        Outlaw: https://s3.us-east-2.amazonaws.com/individua1/premium-archetypal-analysis/out/Archetypal+Profile+-+Outlaw.pdf
+        Ruler: https://s3.us-east-2.amazonaws.com/individua1/premium-archetypal-analysis/rul/Archetypal+Profile+-+Ruler.pdf
+        Sage: https://s3.us-east-2.amazonaws.com/individua1/premium-archetypal-analysis/sag/Archetypal+Profile+-+Sage.pdf
+    }
+    archetypal-incarnations {
+        Caregiver: https://s3.us-east-2.amazonaws.com/individua1/premium-archetypal-analysis/car/Archetypal+Incarnations+-+Caregiver.pdf
+        Creator: https://s3.us-east-2.amazonaws.com/individua1/premium-archetypal-analysis/cre/Archetypal+Incarnations+-+Creator.pdf
+        Explorer: https://s3.us-east-2.amazonaws.com/individua1/premium-archetypal-analysis/exp/Archetypal+Incarnations+-+Explorer.pdf
+        Hero: https://s3.us-east-2.amazonaws.com/individua1/premium-archetypal-analysis/her/Archetypal+Incarnations+-+Hero.pdf
+        Innocent: https://s3.us-east-2.amazonaws.com/individua1/premium-archetypal-analysis/inn/Archetypal+Incarnations+-+Innocent.pdf
+        Jester: https://s3.us-east-2.amazonaws.com/individua1/premium-archetypal-analysis/jes/Archetypal+Incarnations+-+Jester.pdf
+        Lover: https://s3.us-east-2.amazonaws.com/individua1/premium-archetypal-analysis/lov/Archetypal+Incarnations+-+Lover.pdf
+        Magician: https://s3.us-east-2.amazonaws.com/individua1/premium-archetypal-analysis/mag/Archetypal+Incarnations+-+Magician.pdf
+	Member: https://s3.us-east-2.amazonaws.com/individua1/premium-archetypal-analysis/mem/Archetypal+Incarnations+-+Member.pdf
+        Outlaw: https://s3.us-east-2.amazonaws.com/individua1/premium-archetypal-analysis/out/Archetypal+Incarnations+-+Outlaw.pdf
+        Ruler: https://s3.us-east-2.amazonaws.com/individua1/premium-archetypal-analysis/rul/Archetypal+Incarnations+-+Ruler.pdf
+        Sage: https://s3.us-east-2.amazonaws.com/individua1/premium-archetypal-analysis/sag/Archetypal+Incarnations+-+Sage.pdf
+    }
+    archetypal-odyssey {
+        Caregiver: https://s3.us-east-2.amazonaws.com/individua1/premium-archetypal-analysis/car/Archetypal+Odyssey+-+Caregiver.pdf
+        Creator: https://s3.us-east-2.amazonaws.com/individua1/premium-archetypal-analysis/cre/Archetypal+Odyssey+-+Creator.pdf
+        Explorer: https://s3.us-east-2.amazonaws.com/individua1/premium-archetypal-analysis/exp/Archetypal+Odyssey+-+Explorer.pdf
+        Hero: https://s3.us-east-2.amazonaws.com/individua1/premium-archetypal-analysis/her/Archetypal+Odyssey+-+Hero.pdf
+        Innocent: https://s3.us-east-2.amazonaws.com/individua1/premium-archetypal-analysis/inn/Archetypal+Odyssey+-+Innocent.pdf
+        Jester: https://s3.us-east-2.amazonaws.com/individua1/premium-archetypal-analysis/jes/Archetypal+Odyssey+-+Jester.pdf
+        Lover: https://s3.us-east-2.amazonaws.com/individua1/premium-archetypal-analysis/lov/Archetypal+Odyssey+-+Lover.pdf
+        Magician: https://s3.us-east-2.amazonaws.com/individua1/premium-archetypal-analysis/mag/Archetypal+Odyssey+-+Magician.pdf
+	Member: https://s3.us-east-2.amazonaws.com/individua1/premium-archetypal-analysis/mem/Archetypal+Odyssey+-+Member.pdf
+        Outlaw: https://s3.us-east-2.amazonaws.com/individua1/premium-archetypal-analysis/out/Archetypal+Odyssey+-+Out.pdf
+        Ruler: https://s3.us-east-2.amazonaws.com/individua1/premium-archetypal-analysis/rul/Archetypal+Odyssey+-+Ruler.pdf
+        Sage: https://s3.us-east-2.amazonaws.com/individua1/premium-archetypal-analysis/sag/Archetypal+Odyssey+-+Sage.pdf
+    }
+}
